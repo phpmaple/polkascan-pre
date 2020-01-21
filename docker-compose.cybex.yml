@@ -11,7 +11,7 @@ services:
     command: ./start.sh
     environment:
       - PYTHONPATH=/usr/src/app
-      - ENVIRONMENT=dev
+      - ENVIRONMENT=prod
       - DB_HOST=mysql
       - DB_PORT=3306
       - DB_USERNAME=root
@@ -33,7 +33,7 @@ services:
       - CELERY_BROKER=redis://redis:6379/0
       - CELERY_BACKEND=redis://redis:6379/0
       - PYTHONPATH=/usr/src/app
-      - ENVIRONMENT=dev
+      - ENVIRONMENT=prod
       - DB_HOST=mysql
       - DB_PORT=3306
       - DB_USERNAME=root

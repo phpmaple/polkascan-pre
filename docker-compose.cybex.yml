@@ -101,7 +101,7 @@ services:
         NETWORK_TOKEN_SYMBOL: CYB
         NETWORK_TOKEN_DECIMALS: 0
     ports:
-      - '8080:80'
+      - '8081:80'
     depends_on:
       - harvester-api
       - explorer-api

@@ -97,7 +97,7 @@ services:
       context: explorer-gui/.
       args:
         NETWORK_NAME: Cybex
-        API_URL: http://47.101.64.138:8080/api/v1/
+        API_URL: https://scan-sub.cybex.io/api/v1/
         NETWORK_TOKEN_SYMBOL: CYB
         NETWORK_TOKEN_DECIMALS: 0
     ports:
